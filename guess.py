@@ -5,7 +5,9 @@
 
 import random
 
-result = random.randint(1, 100)
+start = int(input('Please determine the start value of the random integer range: '))
+end = int(input('Please determine the end value of the random integer range: '))
+result = random.randint(start, end)
 count = 0
 
 
